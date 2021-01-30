@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/sign/index",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/user/index",
+    "pages/park/index",
+    "pages/jifen/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "img/shouye.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "停车缴费",
+        "iconPath": "img/tingche.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "积分商城",
+        "iconPath": "img/jifen.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "img/wode-copy.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

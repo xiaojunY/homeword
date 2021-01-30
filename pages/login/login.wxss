@@ -1,0 +1,20 @@
+.logo {
+  text-align: center;
+}
+.logo image {
+  width: 412rpx;
+}
+.login_btn {
+  margin-top: 172rpx;
+}
+.login_btn .submit {
+  width: 80%;
+  color: #fff;
+  background: linear-gradient(4deg, #FF1818, #FA5E2E);
+  font-size: 38rpx;
+  font-weight: bold;
+  border-radius: 20rpx;
+  margin-bottom: 23rpx;
+  font-family: PingFang-SC-Bold;
+  line-height: 40px;
+}

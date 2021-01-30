@@ -1,0 +1,68 @@
+.calendar{
+  width: 100%;
+  background:#FFFFFF;
+  border-radius: 20rpx;
+  padding: 20rpx 0;
+}
+.calendar .bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30rpx 20rpx;
+  padding: 10rpx;
+}
+.calendar .bar image{
+  width: 24rpx;
+  height: 40rpx;
+}
+.calendar .bar .current{
+  font-size: 34rpx;
+  color: #76758A;
+  font-weight: bold;
+}
+.showData{
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.showData view{
+  width: 14%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 28rpx;
+  color: #999999;
+  font-weight: 400;
+}
+.calendar .content{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.calendar .content .itemData{
+  width: 14.2%;
+  height: 70rpx;
+  line-height: 70rpx;
+  flex-shrink: 0;
+  font-size: 28rpx;
+  color: #666;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.calendar .content .gray{
+  color: #999;
+}
+.sign_btn{
+  width: 65%;
+  margin-top: 40rpx;
+  background: linear-gradient(0deg, #F3742C,#FCDC67);
+  border-radius: 55px;
+  font-size: 46rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 5px rgba(171, 34, 26, 0.48);
+}

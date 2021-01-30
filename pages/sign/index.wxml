@@ -1,0 +1,18 @@
+
+<view class="sign_warp">
+  <!-- <image class='sign_background' src="/img/sign_bg.png" mode="widthFix"></image> -->
+  <view class="sign_content">
+    <view class="sign_time">
+     <calendar currentYear='2021' currentMonth="1" nowYear="2021" nowMonth="1" nowDate="24" bindsendObj='getCalendarData'></calendar>
+    </view>
+    <view class="sign_des">
+      <view class="des_title">签到说明</view>
+      <view class="des_item">
+        <text>1. 我就爱殴打进卡死啦领大师对外拉拉裤女护肤看电视粉红色客家话尽快弄 </text>
+        <text>2. 我就爱殴打进卡死啦领大师对外拉拉裤女护肤看电视粉红色客家话尽快弄 </text>
+        <text>3. 我就爱殴打进卡死啦领大师对外拉拉裤女护肤看电视粉红色客家话尽快弄 </text>
+      </view>
+    </view>
+  </view>
+
+</view>

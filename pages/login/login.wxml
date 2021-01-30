@@ -1,0 +1,8 @@
+<view class="logo">
+  <image mode="widthFix" src='/img/login_bg.png'></image>
+</view>
+
+<view class="login_btn">
+    <button class="submit">微信登陆</button>
+    <button class="submit">验证码登录</button>
+</view>
